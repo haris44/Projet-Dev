@@ -1,0 +1,28 @@
+﻿<Window x:Class="Air_Atlantique.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Air_Atlantique"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="439.84" Width="680.348">
+    <Grid>
+        <Rectangle Fill="#FFC5CAE8" Margin="0,288,-0.5,-9.5" Stroke="White"/>
+        <Label x:Name="labelE" Content="Prochaines sessions" HorizontalAlignment="Left" Margin="35,65,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="" HorizontalAlignment="Left" Height="140" Margin="35,105,0,0" VerticalAlignment="Top" Width="608" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.755"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.923"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="formations" Content="FORMATIONS" HorizontalAlignment="Left" Height="29" Margin="66,250,0,0" VerticalAlignment="Top" Width="111" Background="#FF448AFF" Foreground="White" FontWeight="SemiBold" Click="formations_Click"/>
+        <Button x:Name="button_Copy" Content="SESSIONS" HorizontalAlignment="Left" Height="29" Margin="289,250,0,0" VerticalAlignment="Top" Width="111" Background="#FF448AFF" Foreground="White" FontWeight="Medium"/>
+        <Button x:Name="button_Copy1" Content="EMPLOYEES" HorizontalAlignment="Left" Height="29" Margin="506,250,0,0" VerticalAlignment="Top" Width="111" Background="#FF448AFF" Foreground="White" FontWeight="Medium"/>
+        <Frame x:Name="menu" Content="" HorizontalAlignment="Left" Height="89" VerticalAlignment="Top" Width="676" Margin="0,0,-0.5,0"/>
+
+    </Grid>
+</Window>
